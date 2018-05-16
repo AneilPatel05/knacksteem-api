@@ -10,7 +10,7 @@ const SECRET = process.env.UTOPIAN_STEEMCONNECT_SECRET;
 const SC2_SCOPES = [
   'vote',
   'comment',
-  'comment_delete',
+  'delete_comment',
   'comment_options',
   'custom_json',
   'claim_reward_balance',
